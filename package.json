@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "backend for programming place",
   "main": "index.js",
+  "repository": "https://github.com/kishor-gujar/programmingplaceServer.git",
   "author": "Kishor Gujar",
   "license": "MIT",
   "devDependencies": {},
