@@ -1,0 +1,12 @@
+version: '2'
+services:
+  postgres:
+    image: postgres
+    ports:
+    - "5432:5432"
+    environment:
+      - POSTGRES_USER=king
+      - POSTGRES_PASSWORD=toor
+      - POSTGRES_DB=programmingplace
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
